@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800&display=swap');
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Montserrat', sans-serif;
+	color:#FFFFFF;
+}
+
+body{
+	background-image:url("img/4k-wallpaper-adventure-climb-691668.jpg");
+	background-position:center top;
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+	width:100vw;
+}
+
+#body_wrapper{
+	background-color:rgba(255,0,0,0.75);
+	width:100%;
+	height:100vh;
+}
+
+header{
+	display:flex;
+	justify-content: space-between;
+	padding:0 80px;
+}
+
+header img{
+	width:100px;
+	height:100px;
+}
+
+header div{
+	display:flex;
+	align-items:center;
+}
+
+header div a{
+	padding:10px;
+	border-bottom:solid 3px rgba(0,0,0,0);
+}
+
+header div a:hover{
+	cursor:default;
+	border-bottom:solid 3px white;
+}
+
+
+header div a:nth-child(2) {
+	margin:0 25px;
+}
+
+#hero{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	border:solid 4px white;
+	border-radius:2px;
+	width:600px;
+	height:300px;
+	margin:0 auto;
+	position:relative;
+	top:20%;
+}
+
+#hero h2{
+	margin:20px 0;
+}
+
+#hero button{
+	padding:15px;
+	border:solid 3px white;
+	background-color:rgba(0,0,0,0.6);
+}
+
+#hero button:hover{
+	background-color:rgba(0,0,0,0.9);
+}
