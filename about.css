@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Montserrat', sans-serif;
+	color:#FFFFFF;
+}
+
+body{
+	background-color:#252525;
+}
+
+header{
+	display:flex;
+	justify-content: space-between;
+	padding:0 80px;
+  margin-bottom: 20px;
+}
+
+header img{
+	width:100px;
+	height:100px;
+}
+
+header div{
+	display:flex;
+	align-items:center;
+}
+
+header div a{
+	padding:10px;
+	border-bottom:solid 3px rgba(0,0,0,0);
+}
+
+header div a:hover{
+	cursor:default;
+	border-bottom:solid 3px white;
+}
+
+
+header div a:nth-child(2) {
+	margin:0 25px;
+}
+
+#main_content{
+  margin:0 auto;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  max-width:800px;
+}
+
+#main_banner{
+  width:100%;
+  height:200px;
+  background-image: url("img/Allianz-Arena.jpg");
+  background-size:cover;
+  background-position: center;
+  border:solid 3px white;
+  border-radius:2px;
+  margin-bottom:30px;
+}
+
+#about-section{
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+  height:120px;
+}
+
+#about-section div{
+  height: 100%;
+}
+
+#about-section div:nth-child(1){
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  margin-right:15px;
+  border-radius: 2px;
+  padding:0 25px;
+  width:30%;
+  font-size:2em;
+  background-color:white;
+}
+
+#about-section div:nth-child(2){
+  width:70%;
+}
+
+#about-section h1{
+  background-color:white;
+  color:#252525;
+  font-weight: bold;
+}
+
+#understand{
+  height: 400px;
+  width:100%;
+  position:relative;
+  margin-top:30px;
+}
+
+#understand_text{
+  width:50%;
+  height:400px;
+  background-color:#EC1F24;
+  display:flex;
+  flex-direction:column;
+  padding:10px 0px 10px 15px;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+#understand_text>*{
+	width:50%;
+}
+
+#understand_text h1{
+	font-size:8em;
+}
+
+#understand_text b {
+	margin-bottom:20px;
+	margin-left:5px;
+}
+
+#understand_text i {
+	margin-left:5px;
+}
+
+#understand_banner{
+  width:70%;
+  height:250px;
+  background-image: url("img/astrology-astronomy-constellation-2098427.jpg");
+  background-size:cover;
+  background-position: center;
+  border:solid 3px white;
+  border-radius:2px;
+  position:relative;
+  top:75px;
+  right:0;
+  margin-left:auto;
+}

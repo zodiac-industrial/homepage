@@ -1,0 +1,63 @@
+@media only screen and (max-width: 800px) {
+  header{
+    flex-direction:column;
+  }
+
+  #main_banner{
+    border:1px solid white;
+    width:90%;
+  }
+
+  #about-section{
+    flex-direction: column;
+    width:90%;
+    height:100%;
+  }
+
+  #about-section div:nth-child(1){
+    width:100%;
+    margin:0;
+    margin-bottom:15px;
+    padding:20px;
+  }
+
+  #about-section div:nth-child(2){
+    width:100%;
+  }
+  
+  #understand{
+	  display:flex;
+	  flex-direction:row;
+	  position:static;
+	  width:90%;
+	  background-color:gray;
+	  height:auto;
+  }
+  
+  #understand_text{
+	  width:50%;
+	  height:auto;
+  }
+  
+  #understand_text>*{
+	  width:95%;
+  }
+  
+  #understand_text h1{
+	  font-size:5em;
+  }
+  
+  #understand_text{
+	  position:static;
+  }
+  
+  #understand_banner{
+	  width:50%;
+	  height:auto;
+	  background-image: url("img/astrology-astronomy-constellation-2098427.jpg");
+	  background-size:cover;
+	  background-position: center;
+	  border:solid 3px white;
+	  border-radius:2px;
+  }
+}
