@@ -24,7 +24,7 @@
   #about-section div:nth-child(2){
     width:100%;
   }
-  
+
   #understand{
 	  display:flex;
 	  flex-direction:row;
@@ -33,32 +33,32 @@
 	  background-color:gray;
 	  height:auto;
   }
-  
+
   #understand_text{
 	  width:50%;
 	  height:auto;
   }
-  
+
   #understand_text>*{
 	  width:95%;
   }
-  
+
   #understand_text h1{
 	  font-size:5em;
   }
-  
+
   #understand_text{
 	  position:static;
   }
-  
+
   #understand_banner{
 	  width:50%;
 	  height:auto;
-	  background-image: url("img/astrology-astronomy-constellation-2098427.jpg");
+	  background-image: url("img/astrology-astronomy-constellation-compressed.jpg");
 	  background-size:cover;
 	  background-position: center;
 	  border:solid 3px white;
 	  border-radius:2px;
   }
-  
+
 }
