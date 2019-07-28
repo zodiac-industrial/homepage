@@ -141,7 +141,7 @@ header div a:nth-child(2) {
 #understand_banner{
   width:70%;
   height:250px;
-  background-image: url("img/astrology-crop.jpg");
+  background-image: url("img/astrology-crop-compressed.jpg");
   background-size:cover;
   background-position: center;
   border:solid 3px white;
