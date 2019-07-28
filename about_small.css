@@ -3,6 +3,10 @@
     flex-direction:column;
   }
 
+  a{
+  	text-decoration: none;
+  }
+
   #main_banner{
     border:1px solid white;
     width:90%;
