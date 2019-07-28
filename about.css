@@ -151,13 +151,17 @@ header div a:nth-child(2) {
 #understand .box_art{
   display:flex;
   flex-direction:column;
-  position:relative;
+  position:absolute;
+  top:15%;
+  left:110%;
   z-index: 1;
+  padding-right:20px;
 }
 
 .box{
   width:30px;
   height:30px;
   border:solid 10px white;
+  margin:15px 0;
   background-color:#252525;
 }
