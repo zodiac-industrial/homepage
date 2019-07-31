@@ -11,7 +11,7 @@
 body{
 	background-image:url("img/adventure-climb-1k-compressed.jpg");
 	background-position:center top;
-	background-size:1920px 1080px;
+	background-size:1920px 1280px;
 }
 
 #body_wrapper{
@@ -69,7 +69,7 @@ header div a:nth-child(2) {
 	background-attachment:fixed;
 	background-origin: content-box;
 	background-clip:content-box;
-	background-size:1920px 1080px;
+	background-size:1920px 1280px;
 }
 
 #hero h2{
