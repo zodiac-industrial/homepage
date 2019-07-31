@@ -10,13 +10,14 @@
 
 body{
 	background-color:#252525;
+	margin-bottom:200px;
 }
 
 header{
 	display:flex;
 	justify-content: space-between;
 	padding:0 80px;
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 header img{
@@ -50,7 +51,7 @@ header div a:nth-child(2) {
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  max-width:800px;
+  max-width:700px;
 }
 
 #main_banner{
@@ -99,7 +100,7 @@ header div a:nth-child(2) {
 }
 
 #understand{
-  height: 400px;
+  height: 420px;
   width:100%;
   position:relative;
   margin-top:30px;
@@ -107,7 +108,7 @@ header div a:nth-child(2) {
 
 #understand_text{
   width:50%;
-  height:400px;
+  height:100%;
   background-color:#EC1F24;
   display:flex;
   flex-direction:column;
@@ -151,17 +152,15 @@ header div a:nth-child(2) {
 #understand .box_art{
   display:flex;
   flex-direction:column;
-  position:absolute;
-  top:15%;
-  left:110%;
+  position:relative;
+  bottom:43%;
+  left:105%;
   z-index: 1;
-  padding-right:20px;
 }
 
 .box{
   width:30px;
   height:30px;
+  margin:10px 0;
   border:solid 10px white;
-  margin:15px 0;
   background-color:#252525;
-}
