@@ -53,12 +53,19 @@
   
   #understand_banner{
 	  width:50%;
-	  height:auto;
-	  background-image: url("img/astrology-astronomy-constellation-2098427.jpg");
+	  height:100%;
+	  margin:0;
+	  position:relative;
+	  top:0;
+	  left:0;
 	  background-size:cover;
 	  background-position: center;
-	  border:solid 3px white;
+	  border:0;
 	  border-radius:2px;
+  }
+  
+  #understand .box_art {
+	  display:none;
   }
   
 }
