@@ -1,12 +1,21 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 873px) {
   header{
     flex-direction:column;
+	padding:0px;
+	margin:0 auto;
+	width:90%;
+	margin-bottom:25px;
+  }
+  
+  #link_bar a{
+	  margin:0;
+	  padding:5px 15px;
   }
 
-  a{
-  	text-decoration: none;
+  #main_content{
+	  max-width:873px;
   }
-
+  
   #main_banner{
     border:1px solid white;
     width:90%;
@@ -31,7 +40,7 @@
 
   #understand{
 	  display:flex;
-	  flex-direction:row;
+	  flex-direction:column;
 	  position:static;
 	  width:90%;
 	  background-color:gray;
@@ -39,7 +48,7 @@
   }
 
   #understand_text{
-	  width:50%;
+	  width:100%;
 	  height:auto;
   }
 
@@ -56,13 +65,18 @@
   }
 
   #understand_banner{
-	  width:50%;
-	  height:auto;
 	  background-image: url("img/astrology-crop-compressed.jpg");
+	  width:100%;
+	  height:200px;
+	  margin:0;
+	  position:static;
 	  background-size:cover;
 	  background-position: center;
-	  border:solid 3px white;
+	  border:0;
 	  border-radius:2px;
   }
 
+  #understand .box_art {
+	  display:none;
+  }
 }
