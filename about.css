@@ -8,6 +8,10 @@
 	color:#FFFFFF;
 }
 
+a{
+	text-decoration: none;
+}
+
 body{
 	background-color:#252525;
 	margin-bottom:200px;
@@ -57,7 +61,7 @@ header div a:nth-child(2) {
 #main_banner{
   width:100%;
   height:200px;
-  background-image: url("img/allianz_arena.jpg");
+  background-image: url("img/allianz-arena-1k-compressed.jpg");
   background-size:cover;
   background-position: center;
   border:solid 3px white;
@@ -138,7 +142,7 @@ header div a:nth-child(2) {
 #understand_banner{
   width:70%;
   height:250px;
-  background-image: url("img/astrology_astronomy_constellation.jpg");
+  background-image: url("img/astrology-crop-compressed.jpg");
   background-size:cover;
   background-position: center;
   border:solid 3px white;
@@ -163,4 +167,4 @@ header div a:nth-child(2) {
   height:30px;
   margin:10px 0;
   border:solid 10px white;
-  background-color:#252525;
+}
