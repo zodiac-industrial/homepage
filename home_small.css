@@ -1,0 +1,22 @@
+@media only screen and (max-width: 873px) {
+  header{
+    flex-direction:column;
+	padding:0px;
+	margin:0 auto;
+	width:90%;
+	margin-bottom:25px;
+  }
+  
+  #link_bar a{
+	  margin:0;
+	  padding:5px 15px;
+  }
+
+  #main_content{
+	  max-width:873px;
+  }
+  
+  #hero{
+	  width:90%;
+  }
+}
